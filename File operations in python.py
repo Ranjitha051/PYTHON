@@ -1,0 +1,7 @@
+file=open("file_open_close.txt","w")
+file.write("Hello,Python!")
+file.close()
+file=open("file_open_close.txt","r")
+content=file.read()
+print(content)
+file.close()
